@@ -13,7 +13,7 @@ export class AuthService {
     domain: 'ernestoaguaysol.auth0.com',
     responseType: 'token id_token',
     audience: 'https://ernestoaguaysol.auth0.com/userinfo',
-    redirectUri: 'http://localhost:4200/callback',
+    redirectUri: 'https://ernestoaguaysol.github.io/authapp/',
     scope: 'openid profile'
   });
 
